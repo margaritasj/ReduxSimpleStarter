@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 
 
-class Haeder extends Component {
+class Header extends Component {
 
   render() {
     return (
       <div>
-        <p>Bienvenidos a React</p>
+        <p>Margarita Sutta Juarez</p>
       </div>
     );
   }
 }
 
-export default Haeder;
+export default Header;
