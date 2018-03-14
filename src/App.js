@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
 // Components
-import Header from './components/Header';
-// import Section from './components/Section';
+import Header from './component/Header';
+import Section from './component/Section';
 
 class App extends Component {
   render() {
     return (
       <div>
         <Header/>
+        <Section/>
       </div>
       
     );

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ListHobbies from './ListHobbies';
 
 
 class Section extends Component {
@@ -6,11 +7,9 @@ class Section extends Component {
   render() {
     return (
       <div>
-        <h1>Mis hobbies</h1>
-        <ul>
-        <li>Musica</li>
-        <li>Baile</li>
-        </ul>
+        <hr/>
+        <h3>Mis hobbies</h3>
+        <ListHobbies/>
       </div>
     );
   }
